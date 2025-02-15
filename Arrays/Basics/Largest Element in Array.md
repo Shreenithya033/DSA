@@ -1,21 +1,21 @@
 # Largest Element in Array
 
-Given an array arr[]. The task is to find the largest element and return it.
+## Problem Statement
 
-Examples:
+Given an array `arr[]`, the goal is to identify and return the largest element.
 
-* Input: arr[] = [1, 8, 7, 56, 90]
-* Output: 90
-* Explanation: The largest element of the given array is 90.
+### Examples:
+- **Input:** arr[] = [2, 6, 7, 65, 99]
+- **Output:** 99
+- **Explanation:** The maximum value in the array is 99.
 
-- Input: arr[] = [5, 5, 5, 5]
-- Output: 5
-- Explanation: The largest element of the given array is 5.
+* **Input:** arr[] = [7, 7, 7, 7]
+* **Output:** 7
+* **Explanation:** The largest value in the array is 7.
 
-+ Input: arr[] = [10]
-+ Output: 10
-+ Explanation: There is only one element which is the largest.
-
++ **Input:** arr[] = [10]
++ **Output:** 10
++ **Explanation:** There is only one element, so it is the largest.
 ``` java
 class Solution {
     public static int largest(int[] arr) {
