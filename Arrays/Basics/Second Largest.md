@@ -1,21 +1,22 @@
-# Problem Statement
+# Second Largest
+## Problem Statement
 
-Given an array of positive integers `arr[]`, return the second largest element from the array. If the second largest element doesn't exist, return `-1`.
+Given an array arr[] containing positive integers, find and return the second largest element. If there is no second largest element, return -1.
 
-**Note**: The second largest element should not be equal to the largest element.
+Note: The second largest element must be different from the largest element.
 
-Examples
-* Input: arr[] = [12, 35, 1, 10, 34, 1]
-* Output: 34
-* Explanation: The largest element of the array is 35 and the second largest element is 34.
-
-- Input: arr[] = [10, 5, 10]
-- Output: 5
-- Explanation: The largest element of the array is 10 and the second largest element is 5.
-
-+ Input: arr[] = [10, 10, 10]
-+ Output: -1
-+ Explanation: The largest element of the array is 10 and the second largest element does not exist.
+### Examples
+* **Input:** arr[] = [3, 53, 4, 6, 34, 23]
+* **Output:** 34
+* **Explanation:** The largest element of the array is 53 and the second largest element is 34.
+  
+- **Input:** arr[] = [10, 5, 10]
+- **Output:** 5
+- **Explanation:** The largest element of the array is 10 and the second largest element is 5.
+  
++ **Input:** arr[] = [10, 10, 10]
++ **Output:** -1
++ **Explanation:** The largest element of the array is 10 and the second largest element does not exist.
 
 ```java
 class Solution {
