@@ -63,6 +63,8 @@ class Solution {
         if(c>1){
             return false;
         }
+         // If there's exactly one break, check if the rotation is valid
+        // The array should also be sorted after the break and arr[0] should be >= arr[n-1]
         if(nums[0]>=nums[n-1]){
             return true;
         }
