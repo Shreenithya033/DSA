@@ -10,11 +10,11 @@ Note: The second largest element must be different from the largest element.
 * **Output:** 34
 * **Explanation:** The largest element of the array is 53 and the second largest element is 34.
   
-- **Input:** arr[] = [10, 5, 10]
+- **Input:** arr[] = [23, 5, 23]
 - **Output:** 5
 - **Explanation:** The largest element of the array is 10 and the second largest element is 5.
   
-+ **Input:** arr[] = [10, 10, 10]
++ **Input:** arr[] = [1, 1, 1]
 + **Output:** -1
 + **Explanation:** The largest element of the array is 10 and the second largest element does not exist.
 
