@@ -10,13 +10,13 @@ Note: The second largest element must be different from the largest element.
 * **Output:** 34
 * **Explanation:** The largest element of the array is 53 and the second largest element is 34.
   
-- **Input:** arr[] = [23, 5, 23]
-- **Output:** 5
-- **Explanation:** The largest element of the array is 10 and the second largest element is 5.
+- **Input:** arr[] = [23, 4, 23]
+- **Output:** 4
+- **Explanation:** The largest element of the array is 23 and the second largest element is 4.
   
 + **Input:** arr[] = [1, 1, 1]
 + **Output:** -1
-+ **Explanation:** The largest element of the array is 10 and the second largest element does not exist.
++ **Explanation:** The largest element of the array is 1 and the second largest element does not exist.
 
 ```java
 class Solution {
